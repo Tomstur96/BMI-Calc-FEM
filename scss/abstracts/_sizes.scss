@@ -1,12 +1,16 @@
 $sizes: (
   8: 0.5rem,
   12: 0.75rem,
+  14: 0.875rem,
   16: 1rem,
   20: 1.25rem,
   24: 1.5rem,
   32: 2rem,
   36: 2.25rem,
   48: 3rem,
+  64: 4rem,
+  70: 4.375rem,
+  140: 8.75rem,
 );
 
 $hero-padding: clamp(15rem, 15vh, 20rem);
@@ -20,3 +24,6 @@ $flex-group-gap: 1rem;
 $container-inline-padding: 1rem;
 $container-max-width: 60rem;
 $container-max-width-wide: 75rem;
+
+$lh-110: 110%;
+$lh-150: 150%;

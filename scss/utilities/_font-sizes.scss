@@ -8,3 +8,44 @@
     }
   }
 }
+
+.font-heading {
+  &__XL {
+    font-size: fs(1100);
+    font-weight: $fw-600;
+    line-height: $lh-110;
+  }
+  &__L {
+    font-size: fs(1000);
+    font-weight: $fw-600;
+    line-height: $lh-110;
+  }
+  &__M {
+    font-size: fs(700);
+    font-weight: $fw-600;
+    line-height: $lh-110;
+  }
+  &__S {
+    font-size: fs(600);
+    font-weight: $fw-600;
+    line-height: $lh-110;
+  }
+}
+
+.font-body {
+  &__M-Reg {
+    font-size: fs(500);
+    font-weight: $fw-400;
+    line-height: $lh-150;
+  }
+  &__M-Bold {
+    font-size: fs(500);
+    font-weight: $fw-600;
+    line-height: $lh-150;
+  }
+  &__S-Reg {
+    font-size: fs(400);
+    font-weight: $fw-400;
+    line-height: $lh-150;
+  }
+}

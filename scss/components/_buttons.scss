@@ -7,12 +7,12 @@
   text-transform: uppercase;
   line-height: 1;
   border: 0;
-  font-weight: $fw-700;
+  font-weight: $fw-600;
   padding: 1.125em 2em;
   transition: 275ms ease;
 
   &[data-type="accent"] {
-    background-color: clr(primary, 400);
+    background-color: clr(primary, 500);
     color: clr(neutral, 900);
   }
 

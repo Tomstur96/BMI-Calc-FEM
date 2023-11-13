@@ -1,17 +1,32 @@
-$ff-sans: "Lato", sans-serif;
+$ff-sans: "Inter", sans-serif;
 $ff-serif: "Abril Fatface", serif;
 
 $ff-base: $ff-sans;
 $ff-accent: $ff-serif;
 
+// $font-sizes: (
+//   900: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+//   800: clamp(2.5rem, 0.5rem + 7vw, 3.75rem),
+//   700: clamp(1.5rem, 0.5rem + 3vw, 1.6875rem),
+//   600: 1.3125rem,
+//   500: 1.125rem,
+//   400: 1rem,
+// );
+
 $font-sizes: (
-  900: clamp(2.5rem, 0.5rem + 10vw, 5rem),
-  800: clamp(2.5rem, 0.5rem + 7vw, 3.75rem),
-  600: clamp(1.5rem, 0.5rem + 3vw, 1.6875rem),
-  500: 1.3125rem,
-  400: 1.125rem,
-  300: 1rem,
+  200: clamp(0.64rem, 0.7099rem + -0.0777vw, 0.6944rem),
+  /* 11.11px → 10.24px */ 300: clamp(0.8rem, 0.8426rem + -0.0473vw, 0.8331rem),
+  /* 13.33px → 12.80px */ 400: clamp(1rem, 1rem + 0vw, 1rem),
+  /* 16.00px → 16.00px */ 500: clamp(1.2rem, 1.1857rem + 0.0714vw, 1.25rem),
+  /* 19.20px → 20.00px */ 600: clamp(1.44rem, 1.405rem + 0.175vw, 1.5625rem),
+  /* 23.04px → 25.00px */ 700: clamp(1.7281rem, 1.6638rem + 0.3214vw, 1.9531rem),
+  /* 27.65px → 31.25px */ 800: clamp(2.0738rem, 1.9688rem + 0.525vw, 2.4413rem),
+  /* 33.18px → 39.06px */ 900: clamp(2.4881rem, 2.3271rem + 0.8054vw, 3.0519rem),
+  /* 39.81px → 48.83px */ 1000: clamp(2.9863rem, 2.7495rem + 1.1839vw, 3.815rem),
+  /* 47.78px → 61.04px */ 1100:
+    clamp(3.5831rem, 3.2446rem + 1.6929vw, 4.7681rem),
+  /* 57.33px → 76.29px */
 );
 
 $fw-400: 400;
-$fw-700: 700;
+$fw-600: 600;
