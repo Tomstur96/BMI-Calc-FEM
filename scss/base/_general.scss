@@ -11,4 +11,5 @@ body {
   // column-gap: 2rem;
   width: min(65ch, 100% - size(24));
   margin-inline: auto;
+  position: relative;
 }

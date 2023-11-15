@@ -21,3 +21,49 @@ input[type="text"] {
     text-align: right;
   }
 }
+
+.bg-overlay {
+  position: absolute;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(214, 230, 254, 1) 65%,
+    rgba(214, 252, 254, 1) 100%
+  );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 56.5vw;
+  height: 737px;
+  border-radius: 0px 0px size(35) size(35);
+  z-index: -1;
+  left: calc(-1 * size(128));
+
+  &__2 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.25) 10%,
+      rgba(214, 230, 254, 0.25) 25%,
+      rgba(214, 252, 254, 0.25) 100%
+    );
+    border-radius: size(35);
+  }
+}
+
+.results {
+  background: linear-gradient(to right, clr(primary, 500), #587dff);
+  border-radius: 99px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: size(32);
+}
+
+.image__hero {
+  align-self: center;
+}
+
+.pattern-line {
+  margin-inline-end: 6rem;
+  margin-inline-start: auto;
+}

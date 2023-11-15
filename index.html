@@ -13,17 +13,18 @@
 </head>
 
 <body>
+  <div class="bg-overlay"></div>
   <header>
     <img class="margin-block-start-70" src="/assets/images/logo.svg" alt="Body Mass Index Calculator logo" width="64"
       height="64px" />
   </header>
 
   <main>
-    <section class="grid-group | gap-32">
+    <section class="section__1 | grid-group | gap-32 | margin-block-end-16">
 
-      <div class="flex-group-col | mx-auto | gap-32 | span-1 | margin-block-start-128">
-        <h1 class="font-heading__XL">Body Mass Index Calculator</h1>
-        <p class="font-body__M-Reg | padding-inline-end-100">
+      <div class="first-child | flex-group-col | mx-auto | gap-32 | span-1">
+        <h1 class="font-heading__XL | clr-neutral-800">Body Mass Index Calculator</h1>
+        <p class="font-body__M-Reg | clr-neutral-700 | padding-inline-end-100">
           Better understand your weight in relation to your height using our
           body mass index (BM) calculator. While BMI is not the sole
           determinant of a healthy weight, it offers a valuable starting point
@@ -31,34 +32,34 @@
         </p>
       </div>
 
-      <div class="data-input | bg-neutral-300">
-        <h2 class=" font-heading__M">Enter your details below</h2>
+      <div class="data-input | bg-neutral-100 | box-shadow-6">
+        <h2 class=" font-heading__M | clr-neutral-800">Enter your details below</h2>
 
-        <div class="grid-group | gap-32">
+        <div class="grid-group | gap-32 | margin-block-start-32">
 
-          <div class="system-unit">
+          <div class=" system-unit">
             <div>
               <input type="radio" name="metric" id="metric" />
-              <label for="metric" class="font-body__M-Bold">Metric</label>
+              <label for="metric" class="font-body__M-Bold | clr-neutral-800">Metric</label>
             </div>
             <div>
               <input type="radio" name="imperial" id="imperial" />
-              <label for="imperial" class="font-body__M-Bold">Imperial</label>
+              <label for="imperial" class="font-body__M-Bold | clr-neutral-800">Imperial</label>
             </div>
           </div>
 
           <div class="system-unit">
             <div>
-              <label for="height" class="font-body__S-Reg">Height</label>
+              <label for="height" class="font-body__S-Reg | clr-neutral-700">Height</label>
               <input type="text" name="height" id="height" placeholder="CM" />
             </div>
             <div>
-              <label for="weight" class="font-body__S-Reg">Weight</label>
+              <label for="weight" class="font-body__S-Reg | clr-neutral-700">Weight</label>
               <input type="text" name="weight" id="weight" placeholder="KG" />
             </div>
           </div>
-          <div class=" system-unit | bg-primary-500">
-            <div>
+          <div class="results | system-unit | bg-primary-500">
+            <div class="flex-group-col">
               <span class="font-body__M-Bold | clr-neutral-100">Your BMI is...</span>
               <span class="font-heading__XL | clr-neutral-100">23.4</span>
             </div>
@@ -73,11 +74,14 @@
 
     </section>
 
-    <section>
-      <img src="/assets/images/image-man-eating.webp" alt="man eating sushi" width="564" height="533" />
-      <div>
-        <h2 class="font-heading__L">What your BMI result means</h2>
-        <p class="font-body__M-Reg">
+    <section class="section__2 | grid-group | gap-128 | margin-block-start-100 margin-block-end-96">
+      <img class="image__hero | margin-block-start-64" src="/assets/images/image-man-eating.webp" alt="man eating sushi"
+        width="564" height="533" />
+      <div class="flex-group-col | mx-auto | gap-36">
+        <img class="pattern-line" src="/assets/images/pattern-curved-line-left.svg" alt="pattern line right" width="85"
+          height="200">
+        <h2 class="font-heading__L | clr-neutral-800">What your BMI result means</h2>
+        <p class="font-body__M-Reg | clr-neutral-700 | margin-block-end-40">
           A BMI range of 18.5 to 24.9 is considered a 'healthy weight.'
           Maintaining a healthy weight may lower your chances of experiencing
           health issues later on, such as obesity and type 2 diabetes. Aim for
@@ -89,28 +93,28 @@
       </div>
     </section>
 
-    <section>
-      <div>
-        <div>
+    <section class="margin-block-end-116">
+      <div class="bg-overlay__2 flex-group | gap-32 | padding-block-start-72 padding-block-end-96 | padding-inline-116">
+        <div class="flex-group-col | mx-auto | gap-24">
           <img src="/assets/images/icon-eating.svg" alt="" width="64" height="64" />
-          <h3 class="Font-heading__M">Healthy Eating</h3>
-          <p class="font-body__M-Reg">
+          <h3 class="font-heading__M | clr-neutral-800 | margin-block-start-20">Healthy Eating</h3>
+          <p class="font-body__M-Reg | clr-neutral-700 | text-wrap-balance">
             Healthy eating promotes weight control, disease prevention, better
             digestion, immunity, mental clarity, and mood.
           </p>
         </div>
-        <div>
+        <div class="flex-group-col | mx-auto | gap-24">
           <img src="/assets/images/icon-exercise.svg" alt="" width="64" height="64" />
-          <h3 class="Font-heading__M">Regular Exercise</h3>
-          <p class="font-body__M-Reg">
+          <h3 class="font-heading__M | clr-neutral-800 | margin-block-start-20">Regular Exercise</h3>
+          <p class="font-body__M-Reg | clr-neutral-700 | text-wrap-balance">
             Exercise improves fitness, aids weight control, elevates mood, and
             reduces disease risk, fostering wellness and longevity.
           </p>
         </div>
-        <div>
+        <div class="flex-group-col | mx-auto | gap-24">
           <img src="/assets/images/icon-sleep.svg" alt="" width="64" height="64" />
-          <h3 class="font-heading__M">Adequate Sleep</h3>
-          <p class="font-body__M-Reg">
+          <h3 class="font-heading__M | clr-neutral-800 | margin-block-start-20">Adequate Sleep</h3>
+          <p class="font-body__M-Reg | clr-neutral-700 | text-wrap-balance">
             Sleep enhances mental clarity, emotional stability, and physical
             wellness, promoting overall restoration and rejuvenation.
           </p>
@@ -146,9 +150,9 @@
     </section>
 
     <section>
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="85.831" height="200.501" viewBox="0 0 85.831 200.501">
-          <path fill="none" stroke="#ACC1DE" d="M82.719.092c7.831 41.7 2.31 140.08-82.43 200" />
+      <div class="grid-group__3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="94.664" height="122.518" viewBox="0 0 94.664 122.518">
+          <path fill="none" stroke="#ACC1DE" d="M94.498 122.046C65.99 112.032 7.28 73.613.498.046" />
         </svg>
         <div>
           <div>

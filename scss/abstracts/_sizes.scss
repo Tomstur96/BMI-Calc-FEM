@@ -6,13 +6,20 @@ $sizes: (
   20: 1.25rem,
   24: 1.5rem,
   32: 2rem,
+  35: 2.1875rem,
   36: 2.25rem,
+  40: 2.5rem,
+  45: 2.8125rem,
   48: 3rem,
   64: 4rem,
   70: 4.375rem,
+  72: 4.5rem,
+  96: 6rem,
   100: 6.25rem,
+  116: 7.25rem,
   128: 8rem,
   140: 8.75rem,
+  200: 12.5rem,
 );
 
 $hero-padding: clamp(15rem, 15vh, 20rem);
