@@ -2,6 +2,7 @@
 @use "colors" as *;
 @use "typography" as *;
 @use "sizes" as *;
+@use "gridSizes" as *;
 
 @function clr($color, $shade) {
   @if map.has-key($colors, $color, $shade) {
@@ -24,5 +25,13 @@
     @return map.get($sizes, $size);
   } @else {
     @error '$sizes does not have that size!';
+  }
+}
+
+@function span($span) {
+  @if map.has-key($spans, $span) {
+    @return map.get($spans, $span);
+  } @else {
+    @error '$span does not have that size!';
   }
 }

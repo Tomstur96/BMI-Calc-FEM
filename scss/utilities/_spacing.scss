@@ -8,6 +8,22 @@
   margin-inline: auto;
 }
 
+@each $span-name, $span-value in $spans {
+  .span {
+    &-#{$span-name} {
+      grid-column: $span-value;
+    }
+  }
+}
+
+@each $size-name, $size-value in $sizes {
+  .gap {
+    &-#{$size-name} {
+      gap: $size-value;
+    }
+  }
+}
+
 @each $size-name, $size-value in $sizes {
   .margin {
     &-#{$size-name} {
